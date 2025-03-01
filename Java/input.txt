@@ -1,0 +1,4 @@
+3
+1234 "Baju Ayam" 101000 10 "Pakaian" "Bulu" "Hitam" "Ayam" "M" "Ayamku"
+3333 "Baju Bebek" 231000 20 "Pakaian" "Bulu" "Putih" "Bebek" "XL" "Bebekku"
+7777 "Sarung Ceker" 671111 14 "Aksesoris" "Katun" "Kuning" "Ayam" "M" "Chickydawg"

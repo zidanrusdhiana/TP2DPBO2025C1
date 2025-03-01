@@ -1,0 +1,4 @@
+3
+1234 Baju_ayam 100000 10 Pakaian Bulu Hitam Ayam M Ayamku
+4563 baju_bebek 231000 20 Pakaian Bulu Putih Bebek XL Bebekku
+7777 sarung_ceker 671111 14 Aksesoris Katun Kuning Ayam M Chickydawg
