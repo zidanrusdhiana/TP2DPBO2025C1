@@ -55,6 +55,9 @@ Kelas Baju adalah turunan dari Aksesoris, yang lebih spesifik untuk produk pakai
 Saat eksekusi program dijalankan, ditampilkan 5 objek awal dalam bentuk tabel. Lalu user diberi pilihan (y/n) untuk menambah data.
 Format input data atau testcase terdapat pada file `input.txt`.
 
+## Diagram
+![tp2](https://github.com/user-attachments/assets/d0a8501f-c738-4faa-9963-5bc66213aa1d)
+
 ## Dokumentasi Program
 
 ### CPP
