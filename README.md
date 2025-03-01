@@ -3,6 +3,37 @@
 ## Janji
 Saya Mochamad Zidan Rusdhiana dengan NIM 2305464 mengerjakan Tugas Praktikum 2 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
+## Penjelasan Atribut dan Methods
+1. PetShop (Parent Class)
+Kelas PetShop adalah kelas dasar yang merepresentasikan produk di toko hewan peliharaan.
+
+id (int) → Identitas unik dari setiap produk.
+nama_produk (String) → Nama dari produk yang dijual.
+harga_produk (double) → Harga produk dalam bentuk desimal.
+stok_produk (int) → Jumlah stok produk yang tersedia.
+foto_produk (String) → Path gambar dari produk. (untuk php)
+Terdapat method untuk upload foto pada program php, yang berfungsi membuat direktori untuk menyimpan file image jika belum ada, dan menyimpan gambar dengan format nama yang ditentukan
+
+2. Aksesoris (Child dari PetShop)
+Kelas Aksesoris adalah turunan dari PetShop, yang khusus untuk produk aksesori.
+
+jenis (String) → Jenis aksesori.
+bahan (String) → Material pembuat aksesori, misalnya "Kain".
+warna (String) → Warna aksesori, misalnya "Merah", "Biru", "Hitam", dll.
+Atribut lain seperti id, nama_produk, harga_produk, stok_produk, dan foto_produk diwarisi dari PetShop.
+
+3. Baju (Child dari Aksesoris)
+Kelas Baju adalah turunan dari Aksesoris, yang lebih spesifik untuk produk pakaian.
+
+untuk (String) → Target pemakaian, misalnya "Anjing", "Kucing", atau "Umum".
+size (String) → Ukuran pakaian, misalnya "S", "M", "L", "XL".
+merk (String) → Merek dari pakaian, misalnya "Adidog", "Nicat", "Dogpreme".
+Atribut dari PetShop dan Aksesoris juga tetap ada dalam kelas Baju, karena kelas ini merupakan subclass dari keduanya.
+
+## Alur Program
+Saat eksekusi program dijalankan, ditampilkan 5 objek awal dalam bentuk tabel. Lalu user diberi pilihan (y/n) untuk menambah data.
+Format input data atau testcase terdapat pada file input.txt
+
 ## Dokumentasi Program
 
 ### CPP
